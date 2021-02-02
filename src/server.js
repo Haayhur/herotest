@@ -24,6 +24,6 @@ connect.then((db) => {
 // db.on('error', (error) => console.error(error))
 // db.once('open', () => console.log('database connected'))
 
-app.listen(5000, () => {
+app.listen(80, () => {
     console.log("The api is running...")
 })
